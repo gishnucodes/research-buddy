@@ -8,7 +8,8 @@ import clipboard
 #%%
 from crewai import Crew, Agent, Task, LLM
 #%%
-api_key='<API_KEY>'
+# api_key='AIzaSyDL0wFZNtM82Y0mSyj6rq9hGdPPcCMyfVI'
+api_key = st.secrets["API_KEY"]
 #%%
 llm = LLM(model="gemini/gemini-1.5-pro", temperature=0.9, verbose=True, api_key=api_key)
 #%%
