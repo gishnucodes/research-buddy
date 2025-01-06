@@ -3,7 +3,6 @@
 import warnings
 warnings.filterwarnings('ignore')
 import streamlit as st
-import clipboard
 
 #%%
 from crewai import Crew, Agent, Task, LLM
